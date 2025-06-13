@@ -1,0 +1,17 @@
+.map {
+  display: grid;
+  grid-template-columns: repeat(15, 32px);
+  grid-template-rows: repeat(12, 32px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map-container {
+  position: relative;
+  width: 480px;
+  height: 384px;
+  background-color: #222;
+  margin: auto;
+}
+

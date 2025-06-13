@@ -1,0 +1,17 @@
+.tile {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.tile.grass {
+  background-color: #4CAF50;
+}
+
+.tile.water {
+  background-color: #2196F3;
+}
+
+.tile.wall {
+  background-color: #555;
+}

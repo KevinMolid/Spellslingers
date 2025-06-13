@@ -1,0 +1,51 @@
+/* HouseSelector.css */
+
+.house-selector {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  width: fit-content;
+}
+
+.house-selector button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid;
+  transition: background-color 0.3s;
+}
+
+.house-selector button:hover {
+  opacity: 0.9;
+}
+
+/* House-specific styles */
+.gryffindor {
+  background-color: #7f0909;
+  color: #ffc500;
+}
+
+.hufflepuff {
+  background-color: #f0c75e;
+  color: #372e29;
+}
+
+.ravenclaw {
+  background-color: #222f5b;
+  color: #946b2d;
+}
+
+.slytherin {
+  background-color: #1a472a;
+  color: #aaaaaa;
+}
+
+.house-selector button.selected {
+  outline: 3px solid yellow;
+  transform: scale(1.1);
+  font-weight: bold;
+}
